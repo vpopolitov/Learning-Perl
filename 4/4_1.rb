@@ -1,5 +1,5 @@
 def total(numbers)
-  numbers.map { |n| n.to_i }.inject { |i, sum| i + sum }
+  numbers.map { |n| n.to_i }.inject { |sum, i| i + sum }
 end
 
 puts "Result for hard-coded array:"
